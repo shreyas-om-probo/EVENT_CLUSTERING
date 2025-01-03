@@ -1,6 +1,5 @@
 import gensim.downloader as api
 import numpy as np
-import matplotlib.pyplot as plt
 import pickle
 
 def load_encoder():
