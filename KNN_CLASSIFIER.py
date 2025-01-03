@@ -25,7 +25,7 @@ def classify_knn(knn, sentence,word2vec_model):
     return category[0]
 
 encoder = load_encoder()
-knn = load_knn('KNN_CLASSIFIER.pickle')
+knn = load_knn('knn_classifier.pickle')
 
 def predict(sentence):
     global encoder
