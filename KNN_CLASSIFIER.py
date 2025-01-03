@@ -29,6 +29,6 @@ if __name__ == "__main__":
     sentence = "TRXUSDT to be priced at 0.12344 USDT or more at 01:00 PM?. Tether's USDT that is issued on the TRON network. It is a technical standard token, and It works based on TRON's network\n"
     print(sentence)
     encoder = load_encoder()
-    knn = load_knn('tokenizer.pickle')
+    knn = load_knn('KNN_CLASSIFIER.pickle')
     label = classify_knn(knn,sentence,encoder)
     print(label)
